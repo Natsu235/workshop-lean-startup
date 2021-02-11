@@ -19,20 +19,22 @@
             <div class="container">
                 <div class="logo pb-5">
                     <!--<h1><i class="fa fa-chevron-right"></i> LOGO</h1>-->
-                    <img src="assets/img/logo.png" width="236px" height="80px" />
+                    <img src="assets/img/logo.png" width="236" height="80" />
                     <hr class="my-4">
                 </div>
                 <div class="catchphrase pb-5">
                     <h1 class="display-4">L'APPLICATION QUI<br>VOUS PROTÈGE !</h1>
                     <br>
-                    <p class="lead w-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat tellus, viverra vel eros nec, sodales luctus ligula. Morbi in laoreet quam. Suspendisse eu dictum nibh. Vivamus ac tempor orci, sed dignissim elit. Suspendisse id auctor ex.</p>
+                    <p class="d-sm-none d-md-block lead w-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat tellus, viverra vel eros nec, sodales luctus ligula. Morbi in laoreet quam. Suspendisse eu dictum nibh. Vivamus ac tempor orci, sed dignissim elit. Suspendisse id auctor ex.</p>
+                    <p class="d-none d-sm-block d-md-none lead w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat tellus, viverra vel eros nec, sodales luctus ligula. Morbi in laoreet quam. Suspendisse eu dictum nibh. Vivamus ac tempor orci, sed dignissim elit. Suspendisse id auctor ex.</p>
                 </div>
-                <div class="btn-list pb-5">
+                <div class="d-flex justify-content-start pb-5">
                     <a href="#">
-                        <img class="play-store mr-5" src="assets/img/google-play.svg" alt="Google Play Store" width="269px" height="80px" />
+                        <img class="play-store" src="assets/img/google-play.svg" alt="Google Play Store" width="269" height="80" />
                     </a>
+                    <div style="width: 40px; height: 80px;"></div>
                     <a href="#">
-                        <img class="app-store" src="assets/img/app-store.svg" alt="Apple App Store" width="240px" height="80px" />
+                        <img class="app-store" src="assets/img/app-store.svg" alt="Apple App Store" width="240" height="80" />
                     </a>
                 </div>
             </div>
@@ -41,11 +43,11 @@
 
     <div class="spacer"></div>
 
-    <div id="preview" class="content mb-5">
+    <div id="preview">
         <div class="container">
-            <div class="category center">
-                <img class="preview" src="assets/img/preview.svg" alt="Preview" width="820px" height="540px" />
-                <!--<iframe src="https://www.youtube.com/watch?v=Ek6AIVcYFh4" width="1280" height="720"></iframe>-->
+            <div class="center mb-5">
+                <img class="preview" src="assets/img/preview.svg" alt="Preview" width="80%" height="80%" />
+                <!--<iframe src="https://www.youtube.com/watch?v=Ek6AIVcYFh4" width="820" height="540"></iframe>-->
             </div>
         </div>
     </div>
@@ -58,7 +60,7 @@
         <div class="container">
             <div class="center pb-5">
                 <h1 class="my-5">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</h1><br>
-                <div class="row mt-3">
+                <div class="row mt-5">
                     <div class="col-sm">
                         <img class="logo1" src="assets/img/logo1.svg" alt="Logo 1" width="100" height="100" />
                         <h2>SIGNALER</h2><br>
@@ -116,7 +118,7 @@
     <div id="download">
         <div class="container">
             <div class="center btn-list my-5">
-                <div class="row mt-3 mb-5">
+                <div class="row mt-5 mb-5">
                     <div class="col-sm">
                         <h1>14491</h1>
                         <h2>UTILISATEURS<br>ENREGISTRÉS</h2>
@@ -131,12 +133,13 @@
                     </div>
                 </div>
                 <br>
-                <div class="mt-5">
+                <div class="d-flex justify-content-center mt-5">
                     <a href="#">
-                        <img class="play-store bg-dark mr-5" src="assets/img/google-play.svg" alt="Google Play Store" width="269px" height="80px" />
+                        <img class="play-store bg-dark" src="assets/img/google-play.svg" alt="Google Play Store" width="269" height="80" />
                     </a>
+                    <div style="width: 40px; height: 80px;"></div>
                     <a href="#">
-                        <img class="app-store bg-dark" src="assets/img/app-store.svg" alt="Apple App Store" width="240px" height="80px" />
+                        <img class="app-store bg-dark" src="assets/img/app-store.svg" alt="Apple App Store" width="240" height="80" />
                     </a>
                 </div>
             </div>
