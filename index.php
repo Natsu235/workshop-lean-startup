@@ -83,17 +83,17 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img class="quote" src="assets/img/quote.svg" alt="Quote" /><br><br><br><br>
-                            <h2>« Magré l’appréhension, mon agression s’est très bien passée. »</h2>
+                            <h2>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. »</h2>
                             <h3>-vanessa_du973</h3>
                         </div>
                         <div class="carousel-item">
                             <img class="quote" src="assets/img/quote.svg" alt="Quote" /><br><br><br><br>
-                            <h2>« Magré l’appréhension, mon agression s’est très bien passée. »</h2>
+                            <h2>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. »</h2>
                             <h3>-vanessa_du973</h3>
                         </div>
                         <div class="carousel-item">
                             <img class="quote" src="assets/img/quote.svg" alt="Quote" /><br><br><br><br>
-                            <h2>« Magré l’appréhension, mon agression s’est très bien passée. »</h2>
+                            <h2>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. »</h2>
                             <h3>-vanessa_du973</h3>
                         </div>
                     </div>
