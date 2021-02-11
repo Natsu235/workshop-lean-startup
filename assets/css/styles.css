@@ -16,27 +16,25 @@ h3 {
     font-style: italic;
 }
 
+.play-store {
+    border-radius: 4px;
+}
+.app-store {
+    border-radius: 4px;
+}
 .play-store:hover {
-    background-color: black;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
+    background-color: #06E775 !important;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 .app-store:hover {
-    background-color: black;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-}
-.play-store-download {
-    background-color: black;
-    border-radius: 8px;
-}
-.app-store-download {
-    background-color: black;
-    border-radius: 8px;
+    background-color: #06E775 !important;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 div.spacer {

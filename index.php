@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" integrity="sha384-5QFXyVb+lrCzdN228VS3HmzpiE7ZVwLQtkt+0d9W43LQMzz4HBnnqvVxKg6O+04d" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <title>Mon Site - Landing Page</title>
@@ -17,11 +18,12 @@
         <div class="jumbotron">
             <div class="container">
                 <div class="logo pb-5">
-                    <h1><i class="fa fa-chevron-right"></i> LOGO</h1>
+                    <!--<h1><i class="fa fa-chevron-right"></i> LOGO</h1>-->
+                    <img src="assets/img/logo.png" width="236px" height="80px" />
                     <hr class="my-4">
                 </div>
                 <div class="catchphrase pb-5">
-                    <h1 class="display-4">L'APPLICATION QUI<br>VOUS PROTEGE !</h1>
+                    <h1 class="display-4">L'APPLICATION QUI<br>VOUS PROTÈGE !</h1>
                     <br>
                     <p class="lead w-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat tellus, viverra vel eros nec, sodales luctus ligula. Morbi in laoreet quam. Suspendisse eu dictum nibh. Vivamus ac tempor orci, sed dignissim elit. Suspendisse id auctor ex.</p>
                 </div>
@@ -39,10 +41,11 @@
 
     <div class="spacer"></div>
 
-    <div id="preview" class="content">
+    <div id="preview" class="content mb-5">
         <div class="container">
             <div class="category center">
-                <iframe src="https://www.youtube.com/watch?v=Ek6AIVcYFh4" width="680" height="420"></iframe> 
+                <img class="preview" src="assets/img/preview.svg" alt="Preview" width="820px" height="540px" />
+                <!--<iframe src="https://www.youtube.com/watch?v=Ek6AIVcYFh4" width="1280" height="720"></iframe>-->
             </div>
         </div>
     </div>
@@ -116,7 +119,7 @@
                 <div class="row mt-3 mb-5">
                     <div class="col-sm">
                         <h1>14491</h1>
-                        <h2>UTILISATEURS<br>ENREGISTRES</h2>
+                        <h2>UTILISATEURS<br>ENREGISTRÉS</h2>
                     </div>
                     <div class="col-sm">
                         <h1>128</h1>
@@ -124,16 +127,16 @@
                     </div>
                     <div class="col-sm">
                         <h1>78</h1>
-                        <h2>TEMOIGNAGES<br>CE MOIS-CI</h2>
+                        <h2>TÉMOIGNAGES<br>CE MOIS-CI</h2>
                     </div>
                 </div>
                 <br>
                 <div class="mt-5">
                     <a href="#">
-                        <img class="play-store-download mr-5" src="assets/img/google-play.svg" alt="Google Play Store" width="269px" height="80px" />
+                        <img class="play-store bg-dark mr-5" src="assets/img/google-play.svg" alt="Google Play Store" width="269px" height="80px" />
                     </a>
                     <a href="#">
-                        <img class="app-store-download" src="assets/img/app-store.svg" alt="Apple App Store" width="240px" height="80px" />
+                        <img class="app-store bg-dark" src="assets/img/app-store.svg" alt="Apple App Store" width="240px" height="80px" />
                     </a>
                 </div>
             </div>
