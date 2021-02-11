@@ -21,9 +21,9 @@
                 <div class="catchphrase pb-5">
                     <h1 class="display-4">L'APPLICATION QUI<br>VOUS PROTEGE !</h1>
                     <br>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat tellus, viverra vel eros nec, sodales luctus ligula.<br>Morbi in laoreet quam. Suspendisse eu dictum nibh. Vivamus ac tempor orci, sed dignissim elit. Suspendisse id auctor ex.</p>
+                    <p class="lead w-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat tellus, viverra vel eros nec, sodales luctus ligula. Morbi in laoreet quam. Suspendisse eu dictum nibh. Vivamus ac tempor orci, sed dignissim elit. Suspendisse id auctor ex.</p>
                 </div>
-                <div class="btn-list">
+                <div class="btn-list pb-5">
                     <img class="mr-5" src="assets/img/google-play.svg" alt="Google Play Store" height="80px" width="269px" />
                     <img src="assets/img/app-store.svg" alt="Apple App Store" height="80px" width="240px" />
                 </div>
