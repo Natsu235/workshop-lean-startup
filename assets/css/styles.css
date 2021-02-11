@@ -1,0 +1,20 @@
+.jumbotron {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0.0, 0) ), url("../img/header.svg");
+    background-size: cover;
+}
+
+header h1 {
+    color: white;
+    font-weight: bold;
+}
+header h2 {
+    color: white;
+    font-weight: bold;
+}
+header p{
+    color: white;
+    font-weight: bold;
+}
+header hr{
+    background-color: white;
+}
