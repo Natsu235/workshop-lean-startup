@@ -12,6 +12,10 @@ header hr{
     background-color: white;
 }
 
+h3 {
+    font-style: italic;
+}
+
 .play-store:hover {
     background-color: black;
     -webkit-transition: all 0.3s ease-in;
@@ -45,6 +49,27 @@ div.center {
 
 .content {
     height: 500px;
+}
+
+#commentCarousel {
+    color: white;
+    background-color: black;
+    height: 450px;
+}
+.carousel-inner {
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+#download h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+#download h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 footer {

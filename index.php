@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" integrity="sha384-5QFXyVb+lrCzdN228VS3HmzpiE7ZVwLQtkt+0d9W43LQMzz4HBnnqvVxKg6O+04d" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -16,7 +17,7 @@
         <div class="jumbotron">
             <div class="container">
                 <div class="logo pb-5">
-                    <h1>LOGO</h1>
+                    <h1><i class="fa fa-chevron-right"></i> LOGO</h1>
                     <hr class="my-4">
                 </div>
                 <div class="catchphrase pb-5">
@@ -52,7 +53,7 @@
 
     <div id="logos">
         <div class="container">
-            <div class="center">
+            <div class="center pb-5">
                 <h1 class="my-5">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</h1><br>
                 <div class="row mt-3">
                     <div class="col-sm">
@@ -75,18 +76,67 @@
         </div>
     </div>
 
-    <div class="container py-5">
-        <hr class="my-4">
+    <div id="comments">
+        <div class="center my-5 pb-5">
+            <div id="commentCarousel" class="carousel slide" data-ride="carousel">
+                <div class="container">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="quote" src="assets/img/quote.svg" alt="Quote" /><br><br><br><br>
+                            <h2>« Magré l’appréhension, mon agression s’est très bien passée. »</h2>
+                            <h3>-vanessa_du973</h3>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="quote" src="assets/img/quote.svg" alt="Quote" /><br><br><br><br>
+                            <h2>« Magré l’appréhension, mon agression s’est très bien passée. »</h2>
+                            <h3>-vanessa_du973</h3>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="quote" src="assets/img/quote.svg" alt="Quote" /><br><br><br><br>
+                            <h2>« Magré l’appréhension, mon agression s’est très bien passée. »</h2>
+                            <h3>-vanessa_du973</h3>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#commentCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Précedent</span>
+                    </a>
+                    <a class="carousel-control-next" href="#commentCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Suivant</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="download">
-        <div class="center btn-list my-5">
-            <a href="#">
-                <img class="play-store-download mr-5" src="assets/img/google-play.svg" alt="Google Play Store" width="269px" height="80px" />
-            </a>
-            <a href="#">
-                <img class="app-store-download" src="assets/img/app-store.svg" alt="Apple App Store" width="240px" height="80px" />
-            </a>
+        <div class="container">
+            <div class="center btn-list my-5">
+                <div class="row mt-3 mb-5">
+                    <div class="col-sm">
+                        <h1>14491</h1>
+                        <h2>UTILISATEURS<br>ENREGISTRES</h2>
+                    </div>
+                    <div class="col-sm">
+                        <h1>128</h1>
+                        <h2>SIGNALEMENTS<br>CE MOIS-CI</h2>
+                    </div>
+                    <div class="col-sm">
+                        <h1>78</h1>
+                        <h2>TEMOIGNAGES<br>CE MOIS-CI</h2>
+                    </div>
+                </div>
+                <br>
+                <div class="mt-5">
+                    <a href="#">
+                        <img class="play-store-download mr-5" src="assets/img/google-play.svg" alt="Google Play Store" width="269px" height="80px" />
+                    </a>
+                    <a href="#">
+                        <img class="app-store-download" src="assets/img/app-store.svg" alt="Apple App Store" width="240px" height="80px" />
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
