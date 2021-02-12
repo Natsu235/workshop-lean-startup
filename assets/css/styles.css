@@ -16,33 +16,21 @@ h3 {
     font-style: italic;
 }
 
-.play-store {
-    border-radius: 4px;
+svg {
+    position: absolute;
 }
+
+.play-store, 
 .app-store {
     border-radius: 4px;
 }
-.play-store:hover {
-    background-color: #06E775 !important;
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-}
+.play-store:hover, 
 .app-store:hover {
     background-color: #06E775 !important;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-}
-
-div.spacer {
-    height: 80px;
-}
-
-div.center {
-    text-align: center;
 }
 
 #commentCarousel {
@@ -55,6 +43,11 @@ div.center {
     padding-bottom: 2.5rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+}
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+    height: 80px !important;
+    width: 50px !important;
 }
 
 #download h1 {

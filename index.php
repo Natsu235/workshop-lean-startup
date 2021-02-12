@@ -41,13 +41,17 @@
         </div>
     </header>
 
-    <div class="spacer"></div>
+    <div style="height: 80px;"></div>
 
     <div id="preview">
-        <div class="container">
-            <div class="center mb-5">
-                <img class="preview" src="assets/img/preview.svg" alt="Preview" width="80%" height="80%" />
+        <div class="container pb-3">
+            <div class="d-flex justify-content-center">
+                <img class="preview" src="assets/img/fake-video.svg" alt="Preview" width="80%" height="80%" />
                 <!--<iframe src="https://www.youtube.com/watch?v=Ek6AIVcYFh4" width="820" height="540"></iframe>-->
+            </div>
+            <br>
+            <div class="d-flex justify-content-center">
+                <p class="lead w-75 text-center">« Les réseaux sociaux nous rapprochent de ceux qui sont loin et nous éloignent parfois de ceux qui sont proches. Nous ignorons des fois qu'il y a des personnes, non loin de chez nous qui sont dans le besoin. Il suffit seulement d'une notification, d'un signal pour qu'une violence en cours cesse ! Nous pouvons tous ensemble changer les choses et nous venir en aide rapidement en installant l'application <i>Be<b>Safe</b></i>. »</p>
             </div>
         </div>
     </div>
@@ -57,47 +61,45 @@
     </div>
 
     <div id="logos">
-        <div class="container">
-            <div class="center pb-5">
-                <h1 class="my-5">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</h1><br>
-                <div class="row mt-5">
-                    <div class="col-sm">
-                        <img class="logo1" src="assets/img/logo1.svg" alt="Logo 1" width="100" height="100" />
-                        <h2>SIGNALER</h2><br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="col-sm">
-                        <img class="logo2" src="assets/img/logo2.svg" alt="Logo 2" width="100" height="100" />
-                        <h2>AIDER</h2><br>
-                        <p>Morbi in laoreet quam.</p>
-                    </div>
-                    <div class="col-sm">
-                        <img class="logo3" src="assets/img/logo3.svg" alt="Logo 3" width="100" height="100" />
-                        <h2>S'INFORMER</h2><br>
-                        <p>Consectetur adipiscing elit. Nunc erat tellus, viverra vel.</p>
-                    </div>
+        <div class="container text-center pb-5">
+            <h1 class="my-5">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</h1><br>
+            <div class="row mt-5">
+                <div class="col-sm">
+                    <img class="logo1" src="assets/img/logo1.svg" alt="Logo 1" width="100" height="100" />
+                    <h2>SIGNALER</h2><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-sm">
+                    <img class="logo2" src="assets/img/logo2.svg" alt="Logo 2" width="100" height="100" />
+                    <h2>AIDER</h2><br>
+                    <p>Morbi in laoreet quam.</p>
+                </div>
+                <div class="col-sm">
+                    <img class="logo3" src="assets/img/logo3.svg" alt="Logo 3" width="100" height="100" />
+                    <h2>S'INFORMER</h2><br>
+                    <p>Consectetur adipiscing elit. Nunc erat tellus, viverra vel.</p>
                 </div>
             </div>
         </div>
     </div>
 
     <div id="comments">
-        <div class="center my-5 pb-5">
+        <div class="my-5 pb-5">
             <div id="commentCarousel" class="carousel slide" data-ride="carousel">
-                <div class="container">
+                <div class="container text-center">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="quote" src="assets/img/quote.svg" alt="Quote" /><br><br><br><br>
+                            <img src="assets/img/double-quote.svg" alt="Double Quote" /><br><br><br><br>
                             <h2>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. »</h2>
                             <h3>-vanessa_du973</h3>
                         </div>
                         <div class="carousel-item">
-                            <img class="quote" src="assets/img/quote.svg" alt="Quote" /><br><br><br><br>
+                            <img src="assets/img/double-quote.svg" alt="Double Quote" /><br><br><br><br>
                             <h2>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. »</h2>
                             <h3>-vanessa_du973</h3>
                         </div>
                         <div class="carousel-item">
-                            <img class="quote" src="assets/img/quote.svg" alt="Quote" /><br><br><br><br>
+                            <img src="assets/img/double-quote.svg" alt="Double Quote" /><br><br><br><br>
                             <h2>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. »</h2>
                             <h3>-vanessa_du973</h3>
                         </div>
@@ -116,9 +118,9 @@
     </div>
 
     <div id="download">
-        <div class="container">
-            <div class="center btn-list my-5">
-                <div class="row mt-5 mb-5">
+        <div class="container text-center">
+            <div class="btn-list my-5">
+                <div class="row mt-5">
                     <div class="col-sm">
                         <h1>14491</h1>
                         <h2>UTILISATEURS<br>ENREGISTRÉS</h2>
@@ -132,8 +134,8 @@
                         <h2>TÉMOIGNAGES<br>CE MOIS-CI</h2>
                     </div>
                 </div>
-                <br>
-                <div class="d-flex justify-content-center mt-5">
+                <div style="height: 150px;"></div>
+                <div class="d-flex justify-content-center">
                     <a href="#">
                         <img class="play-store bg-dark" src="assets/img/google-play.svg" alt="Google Play Store" width="269" height="80" />
                     </a>
@@ -146,7 +148,7 @@
         </div>
     </div>
 
-    <div class="spacer"></div>
+    <div style="height: 80px;"></div>
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
